@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.cheema.delivery.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_fruits"
+        android:name="com.cheema.delivery.ui.fruits.FruitsFragment"
+        android:label="@string/menu_fruits"
+        tools:layout="@layout/fragment_fruits" />
+
+    <fragment
+        android:id="@+id/nav_vegetables"
+        android:name="com.cheema.delivery.ui.vegetables.VegetablesFragment"
+        android:label="@string/menu_vegetables"
+        tools:layout="@layout/fragment_vegetables" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.cheema.delivery.ui.orders.OrdersFragment"
+        android:label="@string/menu_my_orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.cheema.delivery.ui.contact.ContactFragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/fragment_contact" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.cheema.delivery.ui.about.AboutFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.cheema.delivery.ui.rate.RateFragment"
+        android:label="@string/menu_rate_us"
+        tools:layout="@layout/rate_fragment" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.cheema.delivery.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/profile_fragment" />
+</navigation>

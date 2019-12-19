@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "761450921048",
+    "firebase_url": "https://mandi-8cb84.firebaseio.com",
+    "project_id": "mandi-8cb84",
+    "storage_bucket": "mandi-8cb84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761450921048:android:91e5248a2431b330315e2d",
+        "android_client_info": {
+          "package_name": "com.cheema.delivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761450921048-iecra0qkdeog2rug7604898ql6oi7vtd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cheema.delivery",
+            "certificate_hash": "5242ac3126c4bcd55ab807e5232e7897b4010a73"
+          }
+        },
+        {
+          "client_id": "761450921048-f550opqljsse1gi0vumi1jqa8feikmhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqDVvlVWzIwVFBNrTiT7V3DI13Gy7rgs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761450921048-f550opqljsse1gi0vumi1jqa8feikmhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

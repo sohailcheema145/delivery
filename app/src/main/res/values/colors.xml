@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D5A31C</color>
+    <color name="colorPrimaryDark">#F5A31C</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_nav_text">#FFFFFF</color>
+    <color name="color_item_list_text">#000000</color>
+    <color name="color_item_list_background">#F5A31C</color>
+</resources>
